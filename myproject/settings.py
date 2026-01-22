@@ -117,3 +117,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'C:/Users/Athul S/myproject/myproject/myapp/static'
+
+MEDIA_ROOT = BASE_DIR / 'uploads'
+MEDIA_URL = '/media/'
