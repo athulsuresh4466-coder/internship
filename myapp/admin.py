@@ -44,6 +44,23 @@ class ContactMessageAdmin(admin.ModelAdmin):
 
 
 
+from django.contrib import admin
+from .models import AboutSection
+
+@admin.register(AboutSection)
+class AboutSectionAdmin(admin.ModelAdmin):
+    list_display = ("title",)
+
+
+
+
+from django.contrib import admin
+from .models import Project
+
+@admin.register(Project)
+class ProjectAdmin(admin.ModelAdmin):
+    list_display = ('title',)
+
 
 
 
